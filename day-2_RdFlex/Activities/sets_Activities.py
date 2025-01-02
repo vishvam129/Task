@@ -5,8 +5,8 @@
 
 # Find unique elements from two lists using sets.
 
-List=[1,2,3,4,5,6,1,3,2,4,5,6,7,8,9,1]
-List1=[11,21,31,41,51,61,11,31,21,41,51,61,71,81,91,11]
+List = [1,2,3,4,5,6,1,3,2,4,5,6,7,8,9,1]
+List1 = [11,21,31,41,51,61,11,31,21,41,51,61,71,81,91,11]
 
 print("First List is :- ",List)
 print("First List is :- ",List1)
@@ -25,5 +25,5 @@ print("Set1 is subset of Set3 :- ",Set1.issubset(Set3))
 
 # Use set comprehensions to generate squares of even numbers from 1 to 20.
 
-squares_set={x**2 for x in range(1,21) if x%2==0 }
+squares_set={x**2 for x in range(1,21) if x%2 == 0 }
 print("squares of even numbers is :- ",squares_set)

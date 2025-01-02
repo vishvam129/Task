@@ -5,7 +5,7 @@
 
 class Library:
     def __init__(self):
-        self.books=[]
+        self.books = []
         
     def add_book(self,book):
         self.books.append(book)
@@ -17,7 +17,7 @@ class Library:
         for i in self.books:
             print(i)
     
-student1=Library()
+student1 = Library()
 student1.add_book("Harry Potter and the Goblet of Fire")
 student1.add_book("A Little Life")
 student1.add_book("Chronicles: Volume One")

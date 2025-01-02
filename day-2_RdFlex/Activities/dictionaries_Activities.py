@@ -7,27 +7,27 @@
 
 d=dict()
 for i in range(1,6):
-    d[i]=i**3
+    d[i] = i**3
 print("First dictionary is :- ",d)
 
 
 
 # Merge two dictionaries.
 
-d1=dict()
+d1 = dict()
 for i in range(6,11):
-    d1[i]=i**3
+    d1[i] = i**3
 print("Second dictionary is :- ",d1)
 
 merged_dictionary=dict()
 
 for i in d:
-    value=d[i]
-    merged_dictionary[i]=value
+    value = d[i]
+    merged_dictionary[i] = value
 
 for i in d1:
-    value=d1[i]
-    merged_dictionary[i]=value
+    value = d1[i]
+    merged_dictionary[i] = value
     
 print("Mearged_dictionary is :- ",merged_dictionary)
 
@@ -58,11 +58,11 @@ d=dict()
 
 for i in String:
     if i in d:
-        d[i]+=1
+        d[i] += 1
     else:
-        d[i]=1
+        d[i] = 1
         
-print(d)
+print("countig char in String :- ",d)
 
 
 

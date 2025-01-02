@@ -5,21 +5,21 @@
 
 class BankAccount():
     def __init__(self,balance):
-        self.balance=balance
-        print("The original balance is :-",self.balance)
+        self.balance = balance
+        print("The original balance is :- ", self.balance)
     
     def deposit(self,amount):
-        self.balance+=amount
-        new_balance=self.balance
+        self.balance += amount
+        new_balance = self.balance
         print(f"Your updated balance is {new_balance}")
     
     def withdraw(self,amount):
-        if amount>self.balance:
+        if amount > self.balance:
             print("The withdraw amount is more then the balance ")
             return f"The Available blance is {self.balance}"
         else:
-            self.balance-=amount
-            new_balance=self.balance
+            self.balance -= amount
+            new_balance = self.balance
             print(f"Your remaining balance is {new_balance}")
             
     def check_balance(self):

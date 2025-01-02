@@ -4,18 +4,18 @@
 
 String='hello how are u are u fine and why are u'
 
-d=dict()
+d = dict()
 
 for i in String:
     if i in d:
-        d[i]+=1
+        d[i] += 1
     else:
-        d[i]=1
+        d[i] = 1
         
 print(d)
 
 
-input_key=input("Enter the key u want to delete :- ")
+input_key = input("Enter the key u want to delete :- ")
 
 try:
     d.pop(input_key)
